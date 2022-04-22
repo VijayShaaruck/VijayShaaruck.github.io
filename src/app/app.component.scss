@@ -40,6 +40,13 @@
     border-radius: 20px;
 }
 
+.big-card{
+    background-color: $bg-secondary;
+    min-height: 160px;
+    height: auto;
+    border-radius: 20px;
+}
+
 .text-grad{
     background: -webkit-linear-gradient($gradient-start, $gradient-end);
     -webkit-background-clip: text;
