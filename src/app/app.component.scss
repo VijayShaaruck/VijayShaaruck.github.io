@@ -1,0 +1,64 @@
+@import "../../variables.scss";
+
+.nav-text-size{
+    font-size: 14px;
+}
+
+.nav-logo{
+    font-size: 20px;
+}
+
+.home{
+    height: 100vh;
+}
+
+.home-text-size{
+    font-size: 16px;
+}
+
+.home-header {
+    font-size: 70px;
+}
+
+
+.btn-grad {
+    background-image: linear-gradient(to right,  $gradient-start 51%, $gradient-end 100%)
+}
+
+.btn-grad {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: $text-primary;
+    border-radius: 16px;
+}
+
+.card{
+    background-color: $bg-secondary;
+    height: 160px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.big-card{
+    background-color: $bg-secondary;
+    min-height: 160px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.text-grad{
+    background: -webkit-linear-gradient($gradient-start, $gradient-end);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-bg {
+    background: url('../assets/home-bg.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 400px;
+    
+}
